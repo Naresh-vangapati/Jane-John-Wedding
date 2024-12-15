@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Inconsolota"monospace;
+}
+body{
+    background-color: rgb(250, 222, 228);
+}
+header{
+    height: 20px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+a{
+    padding: 10px;
+   text-decoration: none;
+   color: black; 
+}
+a:hover{
+    background-color: lightgray;
+    color: black;
+}
+.bgimg-1{
+    background-image: url(https://www.w3schools.com/w3images/wedding_couple.jpg);
+    background-position: center;
+    background-size: 100%;
+    min-height: 700px;
+    color: white;
+    font-size: 2rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#b1{
+    font-size: 4rem;
+}
+.jane-john{
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 2.5rem;
+color: gray;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.para1{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+    font-size: 18px;
+}
+.wedding-details{
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+   margin-left: 45%;
+   font-size: 1.5rem;
+}
+.wedding-details:hover{
+    background-color: gray;
+    color: black;
+}
+.bgimg-2{
+    background-image: url(https://www.w3schools.com/w3images/flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+#c1{
+    font-size: 5rem;
+}
+.the-wedding{
+    font-size: 2.5rem;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25%;
+    font-size: 18px;
+}
+#d1{
+    font-size: 2rem;
+}
+#e1{
+    font-size: 2rem;
+}
+.rsvp{
+    height: 300px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#f1{
+    font-size: 2.5rem;
+}
+#f3{
+   
+    padding: 15px;
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+}
+#f3:hover{
+    background-color: gray;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 50px;
+}
+#n1{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
