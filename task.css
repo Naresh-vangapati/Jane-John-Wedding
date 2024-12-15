@@ -24,6 +24,7 @@ header{
 }
 a{
     padding: 10px;
+    transition: 0.5s ease;
    text-decoration: none;
    color: black; 
 }
@@ -77,6 +78,7 @@ color: gray;
    font-size: 1.5rem;
 }
 .wedding-details:hover{
+    transition: 0.5s ease;
     background-color: gray;
     color: black;
 }
@@ -141,6 +143,7 @@ color: gray;
     border-radius: 5px;
 }
 #f3:hover{
+    transition: 0.5s ease;
     background-color: gray;
     color: black;
 }
@@ -159,4 +162,9 @@ footer{
     background-color: black;
     color: white;
     cursor: pointer;
+}
+#r1:hover{
+background-color: black;
+color: white;
+transition: 0.5s ease;
 }
